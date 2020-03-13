@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/nce/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/nce/.yarn/bin:/home/nce/.config/yarn/global/node_modules/.bin:/home/nce/.npm-global/bin:/home/nce/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/opt/jdk-13.0.1/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/bin/idea/bin:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/home/nce/.antigen/bundles/StackExchange/blackbox:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/common-aliases:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/docker:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/docker-compose:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/golang:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/npm:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/nvm:/home/nce/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/python:/home/nce/.antigen/bundles/StackExchange/blackbox/bin:/usr/bin/idea/bin:/home/nce/go/bin:/opt/teamspeak5
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/nce/.yarn/lib/cli.js:136987:13)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:297:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
